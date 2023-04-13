@@ -36,7 +36,7 @@
        </head>
        <body>
         <div class="letter">
-            <p class="Sender's address" align="left"> <b> Dr. Eleanor Gaye </b> <br> Awesome Science faculty <br> University of Awesome <br> Bobtown, CA 99999, 
+            <p class="Sender's address" align="right"> <b> Dr. Eleanor Gaye </b> <br> Awesome Science faculty <br> University of Awesome <br> Bobtown, CA 99999, 
                 <br> USA <br> <b>Tel:</b> 123-456-7890 <br> <b>Email:</b> no_reply@example.com </p>
                 <p class="date"> 20 January 2016 </p>
                 <p class="Receiver's address"> <b> Miss Eileen Dover </b> <br> 4321 Cliff Top Edge <br> Dover, CT9 XXX <br> UK </p>
