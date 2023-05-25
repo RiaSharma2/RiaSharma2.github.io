@@ -1,0 +1,160 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+      
+        /* 
+        
+        Spacing 
+        
+
+        
+        
+    
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+@font-face {
+    font-family: sans-serif;
+    src: url(..fonts/sans-serif) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:serif;
+    src: url(..fonts/serif) format(truetype);
+    font-weight:normal;
+    font-style: normal;
+}
+
+html{
+    font-family: sans-serif, serif;
+}
+    
+
+
+
+h1{
+    text-transform: uppercase;
+    font-family: sans-serif, serif;
+    font-size:3rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: .3rem;
+    color: rgb(57, 53, 53);
+    text-align:center;
+}
+
+span{
+    color: rgb(252, 251, 253);
+    font-size: 4rem;
+    background-color:mediumvioletred
+    
+        
+    }
+    
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 7rem;
+    margin-bottom: 2rem;
+    
+   
+}
+.h{
+    width:80%;
+    height: 2px;
+    border:0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    background-color: black;
+
+}
+figure{
+    
+        float: left;
+ 
+    
+}
+figcaption{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row{
+    content: "";
+    display: table;
+    clear: both;
+}
+button{
+    font-size: 5rem;
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+
+aside{
+    width: 20%;
+    max-width: 150px;
+    min-width: 100px;
+    
+    
+
+}
+
+footer {
+    text-align: right;
+}
+
+
