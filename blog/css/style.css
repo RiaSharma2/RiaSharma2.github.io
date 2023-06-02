@@ -1,5 +1,43 @@
 /* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
 
+   
+
+html{
+    font-size: 16px;
+}
+body{
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+main{
+    overflow: auto;
+    min-width: 45rem;
+}
+
+section{
+    float: left;
+    min-width:22.5rem;
+    width: 50%;
+
+}
+figure{
+    width:30%
+    float right;
+}
+
+section {
+    float: left;
+    min-width:22.5rem;
+    width: 50%;
+
+}
+
+    
+
+
+
       
         /* 
         
@@ -112,9 +150,22 @@ ul li{
     background-color: black;
 
 }
+.h3{
+    width:80%;
+    height: 2px;
+    border:0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    background-color: black;
+ 
+}
 figure{
     
-        float: left;
+        float: right;
+        display: inline;
+        padding-bottom: 70px;
  
     
 }
@@ -123,34 +174,27 @@ figcaption{
     margin-top: 2rem;
 
 }
-.column{
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
 .row{
-    content: "";
-    display: table;
-    clear: both;
+    float: left;
+    width: 100%;
+    padding: 3px;
 }
+
+    
+
+
 button{
     font-size: 5rem;
     background-color: blue;
     color: white;
+    
 }
 
 
 
 
 
-aside{
-    width: 20%;
-    max-width: 150px;
-    min-width: 100px;
-    
-    
 
-}
 
 footer {
     text-align: right;
